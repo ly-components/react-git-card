@@ -1,11 +1,7 @@
 import React from 'react';
 import Component from '../src/index';
 
-var config = {
-  user: 'LingyuCoder'
-};
-
 React.render(
-  <Component {...config}/>,
+  <Component user="LingyuCoder"/>,
   document.getElementById('demo')
 );

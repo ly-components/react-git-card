@@ -1,33 +1,31 @@
-# react-webpack-boilerplate
+# react-git-card
 
-A boilerplate of React and Webpack
+A react github user card
+
+[DEMO]http://lingyucoder.github.io/react-git-card/demo/demo.html)
 
 ## Install
 
 ```bash
-$ git clone git@github.com:LingyuCoder/react-webpack-boilerplate.git
-$ cd react-webpack-boilerplate
-$ npm install
+$ npm install --save react-git-card
 ```
 
 ## Usage
 
-```bash
-.
-├── LICENSE
-├── README.md
-├── demo
-│   ├── demo.html
-│   └── demo.jsx
-├── package.json
-├── server.js
-├── src
-│   ├── index.js
-│   ├── lib
-│   │   └── Component.jsx
-│   └── style
-│       └── index.less
-└── webpack.config.js
+```javascript
+import React from 'react';
+import Component from 'react-git-card';
+
+React.render(
+  <Component user="LingyuCoder"/>,
+  document.getElementById('demo')
+);
+```
+
+## Configuration
+
+```javascript
+user: '' //[String] user login name
 ```
 
 ## Development

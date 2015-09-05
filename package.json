@@ -1,7 +1,7 @@
 {
-  "name": "react-webpack-boilerplate",
-  "version": "0.0.2",
-  "description": "A react webpack boilerplate",
+  "name": "react-git-card",
+  "version": "0.0.1",
+  "description": "A react github user card",
   "main": "src/index.js",
   "scripts": {
     "start": "node server.js",
@@ -30,15 +30,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LingyuCoder/react-webpack-boilerplate.git"
+    "url": "git+https://github.com/LingyuCoder/react-git-card.git"
   },
   "keywords": [
     "react",
-    "textarea",
-    "webpack"
+    "git",
+    "card"
   ],
   "bugs": {
-    "url": "https://github.com/LingyuCoder/react-webpack-boilerplate/issues"
+    "url": "https://github.com/LingyuCoder/react-git-card/issues"
   },
-  "homepage": "https://github.com/LingyuCoder/react-webpack-boilerplate#readme"
+  "homepage": "https://github.com/LingyuCoder/react-git-card#readme"
 }
