@@ -2,7 +2,7 @@
 
 A react github user card
 
-[DEMO]http://lingyucoder.github.io/react-git-card/demo/demo.html)
+[DEMO](http://lingyucoder.github.io/react-git-card/demo/demo.html)
 
 ## Install
 
