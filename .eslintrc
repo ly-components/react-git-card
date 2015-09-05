@@ -1,0 +1,97 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "jasmine": false,
+    "jquery": true,
+    "node": true,
+    "mocha": true,
+    "browser": true,
+    "builtin": true,
+    "es6": true
+  },
+  "globals": {
+    "React": true
+  },
+  "ecmaFeatures": {
+    "jsx": true,
+    "modules": true
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "react/display-name": 1,
+    "react/jsx-boolean-value": 1,
+    "react/jsx-no-undef": 1,
+    "react/jsx-quotes": 1,
+    "react/jsx-sort-prop-types": 1,
+    "react/jsx-sort-props": 1,
+    "react/jsx-uses-react": 1,
+    "react/jsx-uses-vars": 1,
+    "react/no-did-mount-set-state": 1,
+    "react/no-did-update-set-state": 1,
+    "react/no-multi-comp": 1,
+    "react/no-unknown-property": 1,
+    "react/prop-types": 1,
+    "react/react-in-jsx-scope": 1,
+    "react/self-closing-comp": 1,
+    "react/sort-comp": 1,
+    "react/wrap-multilines": 1,
+    "strict": 0,
+    "block-scoped-var": 0,
+    "camelcase": 0,
+    "curly": [
+      0,
+      "all"
+    ],
+    "eqeqeq": [
+      1
+    ],
+    "global-strict": [
+      0,
+      "never"
+    ],
+    "guard-for-in": 0,
+    "new-cap": 0,
+    "no-bitwise": 1,
+    "no-caller": 1,
+    "no-cond-assign": [
+      1,
+      "except-parens"
+    ],
+    "no-empty": 2,
+    "no-extend-native": 2,
+    "no-extra-parens": 0,
+    "no-irregular-whitespace": 2,
+    "no-iterator": 0,
+    "no-new": 0,
+    "no-proto": 1,
+    "no-redeclare": 0,
+    "no-sequences": 1,
+    "no-undef": 1,
+    "no-unused-vars": 1,
+    "no-use-before-define": [
+      1,
+      "nofunc"
+    ],
+    "no-with": 1,
+    "no-underscore-dangle": 0,
+    "no-unused-expressions": 0,
+    "comma-dangle": 0,
+    "no-return-assign": 0,
+    "no-shadow": 0,
+    "consistent-return": 0,
+    "dot-notation": 0,
+    "no-process-exit": 0,
+    "quotes": [
+      1,
+      "single"
+    ],
+    "strict": 0,
+    "valid-typeof": 0,
+    "wrap-iife": [
+      0,
+      "inside"
+    ]
+  }
+}
